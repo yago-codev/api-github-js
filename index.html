@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous"
+  >
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar m-3">
+    <div class="container d-flex justify-content-between">
+      <a class="navbar-brand col-3" href="/">
+        <img src="./img/github-icon.png" alt="" width="60" height="60">
+      </a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button id="accordion-header-button" class="accordion-button border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse border-dark" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="accordion-body" class="accordion-body">
+            <div class="accordion" id="accordionOneDotOne">
+              <div id="accordion-subitem" class="accordion-item">
+                <h2 class="accordion-header" id="headingOneDotOne">
+                  <button id="accordion-title-contribuitors" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneDotOne" aria-expanded="true" aria-controls="collapseOneDotOne">
+                    Contribuidores
+                  </button>
+                </h2>
+                <div id="collapseOneDotOne" class="accordion-collapse collapse" aria-labelledby="headingOneDotOne" data-bs-parent="#accordionOneDotOne">
+                  <div id="accordion-body-contribuitors" class="accordion-body">
+                    <ul id="list-group" class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionOneDotTwo">
+              <div id="accordion-subitem-issues" class="accordion-item">
+                <h2 class="accordion-header" id="headingOneDotTwo">
+                  <button id="accordion-title-issues" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneDotTwo" aria-expanded="true" aria-controls="collapseOneDotTwo">
+                    Issues
+                  </button>
+                </h2>
+                <div id="collapseOneDotTwo" class="accordion-collapse collapse" aria-labelledby="headingOneDotTwo" data-bs-parent="#accordionOneDotTwo">
+                  <div id="accordion-body-issues" class="accordion-body">
+                    <ul class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button id="accordion-header-button" class="accordion-button collapsed border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse border-dark" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div id="accordion-body" class="accordion-body">
+            <div class="accordion" id="accordionTwoDotOne">
+              <div id="accordion-subitem" class="accordion-item">
+                <h2 class="accordion-header" id="headingTwoDotOne">
+                  <button id="accordion-title-contribuitors" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoDotOne" aria-expanded="true" aria-controls="collapseTwoDotOne">
+                    Contribuidores
+                  </button>
+                </h2>
+                <div id="collapseTwoDotOne" class="accordion-collapse collapse" aria-labelledby="headingTwoDotOne" data-bs-parent="#accordionTwoDotOne">
+                  <div id="accordion-body-contribuitors" class="accordion-body">
+                    <ul id="list-group" class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionTwoDotTwo">
+              <div id="accordion-subitem-issues" class="accordion-item">
+                <h2 class="accordion-header" id="headingTwoDotTwo">
+                  <button id="accordion-title-issues" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoDotTwo" aria-expanded="true" aria-controls="collapseTwoDotTwo">
+                    Issues
+                  </button>
+                </h2>
+                <div id="collapseTwoDotTwo" class="accordion-collapse collapse" aria-labelledby="headingTwoDotTwo" data-bs-parent="#accordionTwoDotTwo">
+                  <div id="accordion-body-issues" class="accordion-body">
+                    <ul class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button id="accordion-header-button" class="accordion-button collapsed border-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse border-dark" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="accordion-body" class="accordion-body">
+            <div class="accordion" id="accordionThreeDotOne">
+              <div id="accordion-subitem" class="accordion-item">
+                <h2 class="accordion-header" id="headingThreeDotOne">
+                  <button id="accordion-title-contribuitors" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeDotOne" aria-expanded="true" aria-controls="collapseThreeDotOne">
+                    Contribuidores
+                  </button>
+                </h2>
+                <div id="collapseThreeDotOne" class="accordion-collapse collapse" aria-labelledby="headingThreeDotOne" data-bs-parent="#accordionThreeDotOne">
+                  <div id="accordion-body-contribuitors" class="accordion-body">
+                    <ul id="list-group" class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion" id="accordionThreeDotTwo">
+              <div id="accordion-subitem-issues" class="accordion-item">
+                <h2 class="accordion-header" id="headingThreeDotTwo">
+                  <button id="accordion-title-issues" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeDotTwo" aria-expanded="true" aria-controls="collapseThreeDotTwo">
+                    Issues
+                  </button>
+                </h2>
+                <div id="collapseThreeDotTwo" class="accordion-collapse collapse" aria-labelledby="headingThreeDotTwo" data-bs-parent="#accordionThreeDotTwo">
+                  <div id="accordion-body-issues" class="accordion-body">
+                    <ul class="list-group">
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./src/index.js" type="text/javascript"></script>
+</body>
+</html>
